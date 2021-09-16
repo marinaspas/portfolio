@@ -20,10 +20,12 @@ function Home() {
           <p>
             Working with both ad agencies and start-ups, I have experience
             working alongside talented people to create web apps and products
-            for both businesses and consumers. My main expertise is front end
-            web deveopment. Especially working with HTML, CSS and JS. I build
-            digital products that are responsive, simple and intuitive for end
-            users.
+            for both businesses and consumers.
+          </p>
+          <p>
+            My main expertise is front end web development. Especially working
+            with HTML, CSS and JS. I build digital products that are responsive,
+            simple and intuitive for end users.
           </p>
           <p>
             When I am not building stuff, you can find me reading, cooking,

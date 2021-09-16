@@ -3,6 +3,7 @@ import "./App.css";
 import Home from "./components/Home";
 import Portfolio from "./components/Portfolio";
 import Header from "./components/Header";
+import Footer from "./components/Footer";
 
 function App() {
   return (
@@ -15,6 +16,7 @@ function App() {
             <Route path="/portfolio" exact component={Portfolio}></Route>
           </Switch>
         </Router>
+        <Footer />
       </div>
     </>
   );

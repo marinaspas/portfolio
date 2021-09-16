@@ -33,6 +33,7 @@ ul {
 }
 .bio {
   padding-left: 40px;
+  max-width: 600px;
 }
 .bio p {
   padding-bottom: 20px;
@@ -45,9 +46,78 @@ ul {
   font-family: "Open Sans", sans-serif;
   text-decoration: none;
 }
+.links:hover {
+  border-bottom: 2px solid #000;
+}
 .social-list {
   display: flex;
 }
 .social-list li {
   margin-right: 15px;
+}
+footer {
+  max-width: 1080px;
+  margin: 0 auto;
+  position: relative;
+  top: 50px;
+  padding-bottom: 40px;
+}
+.legal {
+  font-family: "Open Sans", sans-serif;
+}
+/* Portfolio Section */
+.heading {
+  font-size: 30px;
+  font-family: "Oswald";
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+.project-info {
+  max-width: 380px;
+  padding-left: 30px;
+  font-size: 18px;
+  font-family: "Open Sans", sans-serif;
+}
+.project-info h3 {
+  font-family: "Playfair Display";
+  font-size: 27px;
+  font-weight: 700;
+}
+.project-info p {
+  padding: 15px 0;
+}
+.portfolio {
+  display: flex;
+  margin: 30px 0;
+}
+.portfolio img {
+  border: 5px solid rgba(0, 0, 0, 0.7);
+}
+.link-btn {
+  font-size: 16px;
+  display: block;
+  border-radius: 5px;
+  padding: 10px 20px;
+  background: #000;
+  color: #fff;
+  text-decoration: none;
+  letter-spacing: 1px;
+}
+.link-btn:hover {
+  background-color: #d2042d;
+  -webkit-transition: background-color 300ms linear;
+  -ms-transition: background-color 300ms linear;
+  transition: background-color 300ms linear;
+}
+.source:hover {
+  background-color: #0a75ad;
+}
+.proj-links-list {
+  display: flex;
+}
+.proj-links-list li {
+  margin-right: 15px;
+}
+.proj-links-list li:last-child {
+  margin-right: 0;
 }
