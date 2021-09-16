@@ -72,6 +72,10 @@ footer {
   text-transform: uppercase;
   letter-spacing: 2px;
 }
+.wrapper {
+  /* display: flex;
+  flex-wrap: nowrap; */
+}
 .project-info {
   max-width: 380px;
   padding-left: 30px;
@@ -120,4 +124,42 @@ footer {
 }
 .proj-links-list li:last-child {
   margin-right: 0;
+}
+
+@media screen and (max-width: 800px) {
+  .about {
+    flex-direction: column;
+    align-items: center;
+  }
+  .avatar {
+    width: 200px;
+  }
+  .bio {
+    padding: 20px;
+    font-size: 20px;
+  }
+  .portfolio {
+    flex-direction: column;
+  }
+  .portfolio img {
+    height: 100%;
+    width: 100%;
+    display: block;
+  }
+  .project-info {
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: none;
+  }
+  .heading {
+    display: none;
+  }
+  footer {
+    top: 0;
+    max-width: none;
+    padding-left: 20px;
+    width: 100%;
+  }
 }

@@ -33,3 +33,33 @@ header {
 .nav-link a:hover {
   border-bottom: 2px solid #000;
 }
+@media screen and (max-width: 800px) {
+  header {
+    padding: 0;
+  }
+  .logo-name {
+    font-size: 70px;
+  }
+  .main-nav {
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+  }
+  .container {
+    width: 100%;
+    max-width: none;
+  }
+  .nav-list {
+    padding-top: 0;
+  }
+  .nav-link a {
+    font-size: 30px;
+  }
+  .hero {
+    padding: 20px;
+  }
+  .main-hdr {
+    font-size: 23px;
+    line-height: 38px;
+  }
+}
