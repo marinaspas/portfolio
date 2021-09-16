@@ -163,3 +163,36 @@ footer {
     width: 100%;
   }
 }
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: portrait) {
+  .bio {
+    max-width: none;
+    padding: 40px;
+  }
+  .avatar {
+    width: 300px;
+  }
+  footer {
+    padding-left: 40px;
+  }
+}
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: landscape) {
+  .main-hdr {
+    font-size: 40px;
+  }
+  .wrapper {
+    margin-left: 40px;
+  }
+  .avatar {
+    margin-left: 40px;
+  }
+  .heading {
+    margin-left: 40px;
+  }
+  .portfolio img {
+    width: 550px;
+    height: 100%;
+  }
+  footer {
+    padding-left: 40px;
+  }
+}
