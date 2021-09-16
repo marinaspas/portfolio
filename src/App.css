@@ -3,3 +3,51 @@
   margin: 0;
   padding: 0;
 }
+ul {
+  list-style: none;
+}
+.main-hdr {
+  font-family: "Playfair Display", serif;
+  font-size: 50px;
+  font-weight: 400;
+}
+.main-hdr span {
+  color: #d2042d;
+}
+.hero {
+  padding: 40px 0;
+}
+
+.container {
+  margin: 0 auto;
+  max-width: 1080px;
+}
+.avatar {
+  display: block;
+  border-radius: 50%;
+  width: 300px;
+  height: 100%;
+}
+.about {
+  display: flex;
+}
+.bio {
+  padding-left: 40px;
+}
+.bio p {
+  padding-bottom: 20px;
+  font-size: 18px;
+  font-family: "Open Sans", sans-serif;
+}
+.links {
+  color: #d2042d;
+  font-size: 18px;
+  font-family: "Open Sans", sans-serif;
+  text-decoration: none;
+}
+.social-list {
+  display: flex;
+}
+.social-list li {
+  margin-right: 15px;
+}
