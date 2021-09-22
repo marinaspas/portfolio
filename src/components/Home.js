@@ -32,7 +32,7 @@ function Home() {
             gaming, hanging out with my dog, and working out.
           </p>
           <p>
-            If you wanna work together you can{" "}
+            If you want to work together you can{" "}
             <a href="mailto:msmarinaspas@gmail.com" className="links">
               email
             </a>{" "}
