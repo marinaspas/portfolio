@@ -14,8 +14,11 @@ function Portfolio() {
             <h3>The Weather App</h3>
             <p>Personal Project</p>
             <p>
-              Technologies used: ReactJS, HTML, CSS3, JS and the OpenWeatherMap
+              Technologies used: React JS, HTML, CSS3, JS and the OpenWeatherMap
               API
+            </p>
+            <p>
+              <em> * the API has a limit of 10 requests per day</em>
             </p>
             <ul className="proj-links-list">
               <li>
@@ -87,7 +90,7 @@ function Portfolio() {
           <div className="project-info">
             <h3>The Travel Blog</h3>
             <p>Personal Project</p>
-            <p>technologies used: React JS, HTML, CSS3 and Hooks</p>
+            <p>Technologies used: React JS, HTML, CSS3 and Hooks</p>
             <ul className="proj-links-list">
               <li>
                 <a
